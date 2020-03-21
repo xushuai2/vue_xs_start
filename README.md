@@ -28,6 +28,7 @@ npm的默认地址是https://registry.npmjs.org/
 可以使用npm config set registry https://registry.npm.taobao.org来改变默认下载地址，达到可以不安装cnpm就能采用淘宝镜像的目的，然后使用上面的get命令查看是否成功。
 
 >>nrm
+
 nrm包安装命令： npm i nrm -g
 nrm能够管理所用可用的镜像源地址以及当前所使用的镜像源地址，但是只是单纯的提供了几个url并能够让我们在这几个地址之间方便切换
 nrm ls即nrm list，查看所有可用的镜像，并可以切换。*号表示当前npm使用的地址，可以使用命令nrm use taobao或 nrm use npm来进行两者之间的切换。
